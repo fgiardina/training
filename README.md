@@ -1,8 +1,9 @@
 # Repo de capacitación
 
-- Descargar la ultima version estable en https://nodejs.org/
+- Descargar la última versión estable en https://nodejs.org/
 - Descargar cliente git: https://git-scm.com/downloads
-- Clonar repositorio: git clone https://github.com/fgiardina/training.git
+- Clonar repositorio: 
+- ```git clone https://github.com/fgiardina/training.git```
 
 ### git básico
   
