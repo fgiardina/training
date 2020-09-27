@@ -1,5 +1,6 @@
 # Repo de capacitación
 
+- Descargar IDE de desarrollo: https://code.visualstudio.com/
 - Descargar la última versión estable en https://nodejs.org/
 - Descargar cliente git: https://git-scm.com/downloads
 - Clonar repositorio: 
