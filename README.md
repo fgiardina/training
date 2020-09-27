@@ -1,4 +1,4 @@
-# Nodejs
+# Repo de capacitacion
 
 - Descargar la ultima version estable en https://nodejs.org/
 - Descargar cliente git: https://git-scm.com/downloads
