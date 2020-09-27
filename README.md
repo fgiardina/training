@@ -4,7 +4,7 @@
 - Descargar cliente git: https://git-scm.com/downloads
 - Clonar repositorio: git clone https://github.com/fgiardina/training.git
 
-* git basico
+### git básico
   
 ```sh
  // descargar los ultimos cambios
