@@ -19,3 +19,4 @@ const direccion = "San Martin 1234";
 console.log(direccion);
 
 // Completar completar con mas ejemplos
+// desde windows
