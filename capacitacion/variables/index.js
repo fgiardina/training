@@ -17,3 +17,5 @@ console.log(nombre, apellido);
 
 const direccion = "San Martin 1234";
 console.log(direccion);
+
+// Completar completar con mas ejemplos
