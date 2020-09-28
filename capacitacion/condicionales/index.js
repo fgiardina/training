@@ -8,3 +8,5 @@ if (nro1 > nro2) {
 } else {
     console.log('el nro 1 es menor al nro 2')
 }
+
+// mostrar en cada mensaje a que nros nos estamos refiriendo
