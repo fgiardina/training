@@ -1,0 +1,5 @@
+Este ejercicio tiene varios problemas que debemos resolver.
+
+1. Como se ordenan los nombres escritos en mayusculas o minusculas
+2. Que sucede si ingresan un nombre vacio (es decir, presionan el boton enviar sin escribir nada) [Agregregarar validaciones]
+3. Agregar una opcion en pantalla para que el usuario elija si quiere los nombres ordenados de forma ascendente o descendente
