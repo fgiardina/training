@@ -1,4 +1,4 @@
-// Iteraciones
+// Iteraciones 2 for anidados
 
 // Tipo de dato llamado ARRAY
 var lista_de_nombres1 = ["Mariano","arr1_1","arr1_2"]
