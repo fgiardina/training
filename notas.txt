@@ -4,5 +4,4 @@ Los 4 pilares de la programacion en general
 2. Condicionales
 3. Iteraciones
 4. Funciones
-
-//
+x
