@@ -13,6 +13,8 @@ const resultado3 = resta(22,4)
 console.log(resultado3)
 
 
+console.log(resultado3)
+
 
 
 function suma(valor1, valor2)
