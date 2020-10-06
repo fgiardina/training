@@ -3,3 +3,13 @@ Este ejercicio tiene varios problemas que debemos resolver.
 1. Como se ordenan los nombres escritos en mayusculas o minusculas
 2. Que sucede si ingresan un nombre vacio (es decir, presionan el boton enviar sin escribir nada) [Agregregarar validaciones]
 3. Agregar una opcion en pantalla para que el usuario elija si quiere los nombres ordenados de forma ascendente o descendente
+
+
+
+2. Posibles soluciones:(
+a. No activar el boton hasta que al menos haya escrito una letra )
+b. Ignoro si el usuario no escribio nada. No agrego al array un nombre vacio.
+    Pero informar al usuario que no puede enviar un nombre vacio.
+
+
+Se eligio la opcion a de Mariano

@@ -5,24 +5,41 @@ let lista_de_nombres = []
 
 // Hago referencia al boton
 const btn_enviar = document.getElementById("btn_enviar")
+  // Hago referencia al input text
+const text_name = document.getElementById("name")
+
+
+text_name.addEventListener("input", () => {
+  if (text_name.value.length < 3) {
+    btn_enviar.setAttribute("disabled", true)  
+  }
+
+  if (text_name.value.length > 2) {
+    btn_enviar.removeAttribute("disabled")
+  }
+
+})
 
 // Metodo para escuchar cuando el usuario le da click al boton
 btn_enviar.addEventListener("click", () => {
-  // Hago referencia al input text
-  const text_name = document.getElementById("name")
 
   // Por cada nombre ingresado proceso los resultados para mostrarlos en pantalla
   procesarNombre(text_name.value)
 
   // Limpio el contenido del input text para dejarlo vacio
   text_name.value = ""
+  btn_enviar.setAttribute("disabled", true)  
 });
 
 
 
 // Funcion que procesa los datos
 function procesarNombre(nombre) {
-    
+
+  nombre = nombre.toLowerCase()
+  nombre = nombre.charAt(0).toUpperCase() + nombre.slice(1)
+
+
   if (!lista_de_nombres.includes(nombre)) { // includes es una funcion que viene en javascript para saber si un valor esta ya incluido dentro de un array
     lista_de_nombres.push(nombre) // push es una funcion que viene en javascript para agregar un valor al array
   }
